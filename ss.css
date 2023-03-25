@@ -151,6 +151,9 @@ nav .fa{
 	/* For mobile phones: */
 	.about, .pro, .pro2, .pro3 .contact {
 	  width: 70%;
+	  overflow-x: scroll;
+	  -ms-overflow-style: none;  /* IE and Edge */
+	  scrollbar-width: none;  /* Firefox */
 	}
   }
 /*-------- about--------*/
